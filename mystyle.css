@@ -1,0 +1,89 @@
+body {
+    background-image: url('pexels-philippe-donn-1169754\ \(1\).jpg');
+    background-size: cover;
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    margin:0px;
+   
+}
+:not(body) {
+    z-index:1;
+}
+
+.logo {
+    background: rgba(0,0,0,0.4);
+    /* opacity: 20%; */
+    text-align: center;
+    color: rgb(255,255,255);
+    height: 100px;
+    /* width: 50%; */
+    flex:1 800px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    padding-bottom: 35px;
+    margin-top: 30vh;
+}
+h2 {
+    opacity: 100%;
+}
+.forminfo{
+    flex:2;
+    flex-direction: column;
+    height: 30vh;
+    background-color: rgb(235, 241, 241);
+    padding-top: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+    padding-left: 30px;
+    padding-right: 100px;
+    margin-top: 0;
+    
+}
+.half
+{
+    display: flex;
+    flex-flow: column nowrap;
+}
+form{
+    display:flex;
+    flex-flow: row wrap;
+    font-family: 'Lobster',cursive;
+    
+    padding-top:30px;
+    background-color: white;
+    justify-content: space-around;
+    /* gap:20px; */
+    
+    height:30vh
+    
+}
+
+label{
+    font-size:larger;
+    
+    
+}
+form input{
+    
+    width: 300px;
+    padding-left:30px;
+    padding-right:300px;
+}
+.input
+{
+    display:flex;
+    
+    
+    flex-flow: column wrap;
+}
+.accept{
+    padding-left: 30px;
+    background-color: rgb(235, 241, 241);
+    height: 40vh;
+    padding-top: 30px;
+    
+}
+button{
+    font-size: larger;
+}
