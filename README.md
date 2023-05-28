@@ -1,6 +1,6 @@
-# Odin
+# Sign-Up webpage design
 
-## A sign up webpage created using html and css.
+## A sign-up webpage created using html and css.
 
 [Link](https://prithvidhar.github.io/Odin/) to the webpage.
 
